@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white_translucent">
+
+    <EditText
+        style="@style/style_text_block_2"
+        android:textStyle="bold"
+        android:text="学习python开发"/>
+
+    <TextView
+        style="@style/style_text_gray_0"
+        android:text="2017-9-15 13：15"/>
+
+    <TextView
+        style="@style/style_text_gray_0"
+        android:text="所属分类：学习"/>
+
+    <TextView
+        style="@style/style_text_gray_0"
+        android:text="完成状态：正在进行"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        style="@style/style_text_block_1"
+        android:text="- 学习python爬虫\n- 学习python基础"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打卡签到：已连续6天完成计划啦~继续签到"/>
+    </LinearLayout>
+</LinearLayout>

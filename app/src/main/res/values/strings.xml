@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">岁月如歌</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="drawer_menu_blog">我的博客</string>
+    <string name="drawer_menu_photo">影集图片</string>
+    <string name="drawer_menu_tools">神奇工具</string>
+    <string name="drawer_menu_music">音乐播放</string>
+    <string name="drawer_menu_demo">开发汇总</string>
+    <string name="drawer_menu_plan">轻年计划</string>
+    <string name="drawer_menu_setting">设置</string>
+
+    <string-array name="array_photo">
+        <item>妹纸福利</item>
+        <item>害虫影集</item>
+        <item>旅行路上</item>
+    </string-array>
+
+    <string-array name="array_demo">
+        <item>项目仓库</item>
+        <item>豆瓣电影top100</item>
+        <item>测试</item>
+    </string-array>
+
+    <string-array name="array_tools">
+        <item>阴阳师挂机服务</item>
+        <item>抢红包插件</item>
+        <item>神奇闹钟</item>
+    </string-array>
+
+    <string name="person_name">刘奉强</string>
+    <string name="person_title">程序员</string>
+    <string name="person_intro">
+        刘奉强，1992年出生于江西宜春。\n
+        Android开发，毕业于山东省烟台大学。\n
+        有过三段工作经历。\n
+    </string>
+</resources>

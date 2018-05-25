@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_weplan_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_previous_item"/>
+
+        <TextView
+            android:id="@+id/text_weplan_title"
+            android:text="所有计划"
+            style="@style/style_text_white_3"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/img_weplan_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_new"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/list_view_weplan"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_width="match_parent">
+    </ExpandableListView>
+
+    <LinearLayout
+        android:id="@+id/layout_weplan_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/color_yellow_translucent"
+        android:visibility="gone"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edit_weplan_add"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="开始制定新计划吧~"
+            android:textColorHint="@color/color_white"
+            style="@style/style_text_white_2"/>
+
+        <TextView
+            android:id="@+id/text_weplan_confirm"
+            style="@style/style_text_white_2"
+            android:text="完成"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/color_white_translucent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            style="@style/style_text_white_0"
+            android:text="计划名："
+            android:textColor="@color/color_yellow_translucent"/>
+
+        <EditText
+            style="@style/style_text_white_2"
+            android:layout_width="match_parent"
+            android:text="开发计划" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/style_text_white_0"
+                android:text="2017-9-18 16：32"/>
+
+            <TextView
+                style="@style/style_text_white_0"
+                android:layout_marginLeft="15dp"
+                android:text="分类：学习计划"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/style_text_white_0"
+            android:text="计划详情："
+            android:textColor="@color/color_yellow_translucent"/>
+
+        <EditText
+            style="@style/style_text_white_2"
+            android:layout_width="match_parent"
+            android:text="记录开发中想做的一些事情" />
+
+        <TextView
+            style="@style/style_text_white_0"
+            android:text="签到完成情况："
+            android:textColor="@color/color_yellow_translucent"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sign"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="修改"/>
+    </LinearLayout>
+</LinearLayout>

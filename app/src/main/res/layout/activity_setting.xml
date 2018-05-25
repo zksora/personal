@@ -1,0 +1,122 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/setting_menu_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_0"
+            android:text="切换主题"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_0" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line"
+            android:layout_marginLeft="@dimen/margin_0"
+            android:layout_marginRight="@dimen/margin_0"
+            android:background="@color/colorGray" />
+
+        <RelativeLayout
+            android:id="@+id/setting_menu_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_0"
+                android:text="夜间模式"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_0" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_view_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_0"
+                android:shadowColor="@color/colorPrimary" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line"
+            android:layout_marginLeft="@dimen/margin_0"
+            android:layout_marginRight="@dimen/margin_0"
+            android:background="@color/colorGray" />
+
+        <RelativeLayout
+            android:id="@+id/setting_menu_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_0"
+                android:text="全屏看图"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size_0" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_view_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_0"
+                android:checked="true"
+                android:shadowColor="@color/colorPrimary" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line"
+            android:layout_marginLeft="@dimen/margin_0"
+            android:layout_marginRight="@dimen/margin_0"
+            android:background="@color/colorGray" />
+
+        <TextView
+            android:id="@+id/setting_menu_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_0"
+            android:text="关于我"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_0" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line"
+            android:layout_marginLeft="@dimen/margin_0"
+            android:layout_marginRight="@dimen/margin_0"
+            android:background="@color/colorGray" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

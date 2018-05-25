@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:minHeight="150dp"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/music_bg"/>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/text_size_1"
+        android:textColor="@color/colorPrimary"
+        android:text="测试"/>
+
+</RelativeLayout>

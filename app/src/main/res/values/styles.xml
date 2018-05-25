@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">?attr/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomThemeBlack" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomThemeYellow" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorYellow</item>
+        <item name="android:windowBackground">@color/colorNavajoWhite</item>
+        <item name="textColor">@color/colorYellow</item>
+    </style>
+
+    <style name="CustomThemeViolet" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorViolet</item>
+        <item name="android:windowBackground">@color/colorLavender</item>
+        <item name="textColor">@color/colorViolet</item>
+    </style>
+
+    <style name="CustomThemeBlue" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="android:windowBackground">@color/colorAliceBlue</item>
+        <item name="textColor">@color/colorBlue</item>
+    </style>
+
+    <style name="CustomThemeRed" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="android:windowBackground">@color/colorPink</item>
+        <item name="textColor">@color/colorRed</item>
+    </style>
+
+    <style name="CustomThemeNight" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@drawable/wallpaper</item>
+        <item name="textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="MyCustomTabLayout">
+        <item name="tabIndicatorColor">?attr/textColor</item>
+        <item name="tabSelectedTextColor">?attr/textColor</item>
+        <item name="tabTextColor">?attr/textColor</item>
+    </style>
+
+</resources>

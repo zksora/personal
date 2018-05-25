@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_add_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_cancel"/>
+
+        <TextView
+            style="@style/style_text_white_3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="新建计划"/>
+
+        <ImageView
+            android:id="@+id/img_add_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_accept"/>
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/edit_add_plan_title"
+        android:layout_width="match_parent"
+        style="@style/style_text_white_3"
+        android:hint="请输入标题"
+        android:textColorHint="@color/color_white"/>
+
+    <EditText
+        android:id="@+id/edit_add_plan_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/style_text_white_3"
+        android:hint="请输入正文"
+        android:textColorHint="@color/color_white"/>
+</LinearLayout>
